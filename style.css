@@ -4,21 +4,57 @@
     margin: 0;
     padding: 0;
 }
-/*font family*/
+/*commons*/
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-/* body bg color */
+
 body{
-    background-color: lightgrey;
+    background-color: #F6F8F9;
 }
-/*caratteristiche header*/
+
 header{
     background-color: white;
     padding: 10px 5px;
     margin-bottom: 30px;
 }
-/*caratteristiche generali container*/
+
+h2{
+    font-size: 16px;
+    color: #434851;
+}
+
+p{
+    font-size: 13px;
+    padding: 7px;
+}
+.circle{
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.circle-btn{
+    border: 1px solid;
+    padding: 4px 7px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+/*containers*/
+.container1{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 2px;
+background-color: white;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 .container2{
     width: 70%;
     margin-left: auto;
@@ -35,7 +71,7 @@ header{
     padding: 4px 7px;
     border-radius: 5px;
 }
-/*bottone blu*/
+/*backgroung buttons*/
 #blue-bg{
     background-color: #14AAF5;
     border-color: #14AAF5;
@@ -46,7 +82,6 @@ header{
     border-color: #AB5DE6;
     color: white;
 }
-/*bottone bianco*/
 #white-bg{
     background-color: white;
     border-color: lightgrey;
@@ -56,29 +91,28 @@ header{
     background-color: #2CC6AB;
     border-color: #2CC6AB;
     color: white;
-}#orange-bg{
+}
+#orange-bg{
     background-color: #FF9B00;
     border-color: #FF9B00;
     color: white;
 }
-h2{
-    font-size: 16px;
+#pink-bg{
+    background-color: #EC4A9D;
+    border-color: #EC4A9D;
+    color: white;
 }
-
-p{
-    font-size: 13px;
+#green2-bg{
+    background-color: #A3D117;
+    border-color: #A3D117;
+    color: white;
 }
-
-.circle{
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 15px;
-    height: 15px;
-    font-size: 10px;
-    font-weight: bolder;
+#blue2-bg{
+    background-color: #0AA9ED;
+    border-color: #0AA9ED;
+    color: white;
 }
-
+/*check and cross*/
 #check{
     color: green;
     border: 1px solid green;
@@ -86,21 +120,4 @@ p{
 #cross{
     color: red;
     border: 1px solid red;
-}
-.circle-btn{
-    border: 1px solid;
-    padding: 4px 7px;
-    border-radius: 12px;
-    font-size: 10px;
-}
-.container1{
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0px;
-margin-bottom: 2px;
-background-color: white;
-padding-left: 40px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
