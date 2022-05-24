@@ -19,11 +19,11 @@ header{
     margin-bottom: 30px;
 }
 /*caratteristiche generali container*/
-.container{
+.container2{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3px;
+    margin-top: 0px;
     background-color: white;
     padding-left: 40px;
     padding-top: 10px;
@@ -31,7 +31,6 @@ header{
 }
 /*caratteristiche generali bottoni*/
 .btn{
-    text-decoration: none;
     border: 1px solid;
     padding: 4px 7px;
     border-radius: 5px;
@@ -39,13 +38,69 @@ header{
 /*bottone blu*/
 #blue-bg{
     background-color: #14AAF5;
-    color: white;
     border-color: #14AAF5;
+    color: white;
+}
+#violet-bg{
+    background-color: #AB5DE6;
+    border-color: #AB5DE6;
+    color: white;
 }
 /*bottone bianco*/
 #white-bg{
     background-color: white;
     border-color: lightgrey;
     color: lightgrey;
+}
+#green-bg{
+    background-color: #2CC6AB;
+    border-color: #2CC6AB;
+    color: white;
+}#orange-bg{
+    background-color: #FF9B00;
+    border-color: #FF9B00;
+    color: white;
+}
+h2{
+    font-size: 16px;
+}
 
+p{
+    font-size: 13px;
+}
+
+.circle{
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#check{
+    color: green;
+    border: 1px solid green;
+}
+#cross{
+    color: red;
+    border: 1px solid red;
+}
+.circle-btn{
+    border: 1px solid;
+    padding: 4px 7px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+.container1{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 2px;
+background-color: white;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
