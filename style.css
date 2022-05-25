@@ -86,7 +86,7 @@ padding-bottom: 10px;
     border-radius: 5px;
 }
 /*backgroung buttons*/
-#blue-bg{
+.blue-bg{
     background-color: #14AAF5;
     border-color: #14AAF5;
     color: white;
@@ -121,17 +121,12 @@ padding-bottom: 10px;
     border-color: #A3D117;
     color: white;
 }
-#blue2-bg{
-    background-color: #0AA9ED;
-    border-color: #0AA9ED;
-    color: white;
-}
 /*check and cross*/
-#check{
+.check{
     color: green;
     border: 1px solid green;
 }
-#cross{
+.cross{
     color: red;
     border: 1px solid red;
 }
